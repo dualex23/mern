@@ -4,7 +4,7 @@
   "description": "test app using mern",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "keywords": [
     "node",
@@ -13,5 +13,12 @@
     "react"
   ],
   "author": "alexander dudinsky",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "config": "^3.3.6"
+  }
 }
